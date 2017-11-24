@@ -4,12 +4,9 @@ import bluetooth._bluetooth as bluez
 import bluetooth
 import json
 
-message = {}
-
 def printpacket(pkt):
     for c in pkt:
-        sys.stdout.write("%02x " % struct.unpack("B",c)[0])
-    print() 
+        sys.stdout.write("%02x " % struct.unpack("B",c)[0]) 
 
 
 def read_inquiry_mode(sock):
@@ -69,6 +66,7 @@ def write_inquiry_mode(sock, mode):
     return 0
 
 def device_inquiry_with_with_rssi(sock):
+    message = {}
     # save current filter
     old_filter = sock.getsockopt( bluez.SOL_HCI, bluez.HCI_FILTER, 14)
 

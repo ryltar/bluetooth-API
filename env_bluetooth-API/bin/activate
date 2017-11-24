@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/ryltar/workspace/bluetooth-api/env_bluetooth-API"
+VIRTUAL_ENV="/home/bluetoothapi/bluetooth-API/env_bluetooth-API"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

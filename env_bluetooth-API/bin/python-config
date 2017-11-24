@@ -1,4 +1,4 @@
-#!/home/ryltar/workspace/bluetooth-api/env_bluetooth-API/bin/python
+#!/home/bluetoothapi/bluetooth-API/env_bluetooth-API/bin/python
 
 import sys
 import getopt

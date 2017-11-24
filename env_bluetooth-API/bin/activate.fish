@@ -36,7 +36,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/ryltar/workspace/bluetooth-api/env_bluetooth-API"
+set -gx VIRTUAL_ENV "/home/bluetoothapi/bluetooth-API/env_bluetooth-API"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
