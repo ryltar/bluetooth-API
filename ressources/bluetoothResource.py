@@ -11,4 +11,3 @@ class Bluetooth(Resource):
             return json.loads(devices)
         except:
             return json.loads(json.dumps(["worker are trying to reload device list"]))
-zerzerzerrez
